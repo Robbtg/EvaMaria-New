@@ -407,8 +407,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+40mgi-EjhQdmNTk1'),
-            InlineKeyboardButton('Movie Updates', url='https://t.me/+zW-bcv3QtgZjZTE9')
+            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+Djzxak5P3CcxYjk1'),
+            InlineKeyboardButton('Movie Updates', url='https://t.me/+Djzxak5P3CcxYjk1')
         ], 
         ]
             
@@ -642,7 +642,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"📂[{get_size(file.file_size)}] 🦅 {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -724,8 +724,8 @@ async def auto_filter(client, msg, spoll=False):
     else:
         dll=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(5)
-        fll=await dll.edit_text(f"<b>🗑️ Filter Deleted After 2 Mins ‼️ \n 🔍Search Again !!</b>")
-        await asyncio.sleep(10)
+        
+        
         await fll.delete()
         await message.delete()
     if spoll:
