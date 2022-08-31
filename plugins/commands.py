@@ -23,12 +23,12 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+40mgi-EjhQdmNTk1'),
-            InlineKeyboardButton('Movie Updates', url='https://t.me/+zW-bcv3QtgZjZTE9')
+        ], 
+        [
+            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+Djzxak5P3CcxYjk1'),
+            InlineKeyboardButton('Movie Updates', url='https://t.me/+Djzxak5P3CcxYjk1')
         ], 
         ]
-            
                
             
             
@@ -55,9 +55,9 @@ async def start(client, message):
 
         ], [
 
-            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+40mgi-EjhQdmNTk1'),
+            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+Djzxak5P3CcxYjk1'),
 
-            InlineKeyboardButton('Movie Updates', url='https://t.me/+zW-bcv3QtgZjZTE9')
+            InlineKeyboardButton('Movie Updates', url='https://t.me/+Djzxak5P3CcxYjk1')
 
         ], 
 
@@ -102,8 +102,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+40mgi-EjhQdmNTk1'),
-            InlineKeyboardButton('Movie Updates', url='https://t.me/+zW-bcv3QtgZjZTE9')
+            InlineKeyboardButton('Movie Search Group', url= 'https://t.me/+Djzxak5P3CcxYjk1'),
+            InlineKeyboardButton('Movie Updates', url='https://t.me/+Djzxak5P3CcxYjk1')
         ], 
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
